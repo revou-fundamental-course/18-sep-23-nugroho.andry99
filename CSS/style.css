@@ -1,17 +1,11 @@
 body {
     padding: 0 25px;
-
-
 }
 
 main {
     display: flex;
     flex-direction: column;
-
 }
-
-
-
 
 .navigation {
     display: flex;
@@ -19,6 +13,7 @@ main {
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
 }
+
 .nav {
     display: flex;
 }
@@ -29,9 +24,7 @@ main {
     font-family: Verdana;
 }
 
-
 .nav-item {
-
     border: 2px solid black;
     display: flex;
     align-items: center;
@@ -39,13 +32,12 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: black;
-
-
 }
 
-.nav-item:hover{
+.nav-item:hover {
     background-color: gray;
 }
+
 .content-title {
     padding: 100px 0;
     display: flex;
@@ -57,7 +49,6 @@ main {
 
 .content {
     display: flex;
-
 }
 
 .content-left {
@@ -77,11 +68,10 @@ main {
     background: lightgray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom: 20px;
-    width: fit-content;   
-
+    width: fit-content;
 }
 
-input{
+input {
     margin-bottom: 10px;
     padding: 8px 2px;
 }
@@ -100,24 +90,20 @@ select {
     padding: 10px 0;
     margin-top: 10px;
     cursor: pointer;
-
 }
 
 .error-message {
     color: red;
     font-size: 0.8em;
     margin-top: 0;
-
 }
-
 
 .button:hover {
     background: black;
     color: white;
-
 }
 
-.content-image{
+.content-image {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -125,15 +111,16 @@ select {
     align-items: center;
 }
 
-.image{
-    width:fit-content;
+.image {
+    width: fit-content;
     display: none;
-
 }
-.active{
+
+.active {
     display: block;
 }
-span {
+
+.quote {
     color: gray;
     justify-content: center;
     align-items: center;
@@ -142,7 +129,6 @@ span {
 
 .content-image span {
     color: gray;
-
 }
 
 .circle {
@@ -151,38 +137,70 @@ span {
     background: lightgray;
     border-radius: 50%;
     width: 1em;
-    font-family: Calibri;
-
-
+    font-family: 'Times New Roman', Times, serif;
+    
 }
+
 .contact {
     display: flex;
     background-color: lightgray;
     padding-bottom: 20px;
     font-size: 30px;
     font-weight: bolder;
-    
 }
 
 .sales {
     display: flex;
     padding-bottom: 20px;
     color: gray;
-
 }
 
 @media screen and (max-width: 600px) {
     .nav {
         flex-direction: column;
     }
-    
-    
+
     .content {
         flex-direction: column;
-        
     }
 }
 
- 
+.foto {
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+}
 
-    
+.nama {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+}
+
+.pekerjaan {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    color: gray;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+
+.content-product{
+    display: flex;
+    background-color: gray;
+    color: black;
+    font-family: Verdana;
+    justify-content: center;
+    align-items: center;
+}
