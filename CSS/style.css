@@ -126,7 +126,12 @@ select {
 }
 
 .image{
-    width: 100%;
+    width:fit-content;
+    display: none;
+
+}
+.active{
+    display: block;
 }
 span {
     color: gray;
