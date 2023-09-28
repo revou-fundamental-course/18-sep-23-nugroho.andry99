@@ -76,6 +76,9 @@ main {
     padding: 20px;
     background: lightgray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+    
+
 }
 
 input{
@@ -137,5 +140,20 @@ span {
     width: 1em;
     font-family: Calibri;
 
+
+}
+.contact {
+    display: flex;
+    background-color: lightgray;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.sales {
+    display: flex;
+    padding-bottom: 20px;
+    color: gray;
 
 }
