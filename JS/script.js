@@ -21,3 +21,22 @@ document.getElementById("button").addEventListener("click", function() {
         document.getElementById("interest-error").innerText = "";
     }
 });
+
+
+const carouselSlides =  document.querySelectorAll(".image");
+let currentIndex = 0;
+let interval = 3000;
+
+function nextSlides () {
+    carouselSlides [currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % carouselSlides.length;
+    carouselSlides [currentIndex].classList.add('active');
+}
+
+function startSlides () {
+    setInterval(nextSlides, interval);
+}
+
+(function(){
+    startSlides();
+})()
