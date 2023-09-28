@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Grocery Tugas</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/script.js"></script>
+    
 </head>
 <body>
     <header class="navigation">
@@ -37,21 +37,29 @@
             <div id="content-right" class="content-right">
                 
             
-                <form class="content-form">
+                <form name="contact-form" class="content-form">
                     <div class="contact">Contact US</div>
                     <div class="sales">Sales akan menghubungi anda dalam 1x24 jam</div>
+
+
                     <label for="your-name">Your Name</label>
-                    <input type="text" name="your-name" placeholder="First And Last Name">
+                    <input id="your-name" type="text" name="your-name" placeholder="First And Last Name">
+                    <p id="name-error" class="error-messsage"></p>
+
                     <label for="email">Email Address</label>
-                    <input type="email" name="email" placeholder="example@gmail.com">
-                    <label for="Interest">What Are You Interested in?</label>
-                    <select name="Interest">
+                    <input id="email" type="email" name="email" placeholder="example@gmail.com">
+                    <p id="email-error" class="error-message"></p>
+
+                    <label id="interest" for="Interest">What Are You Interested in?</label>
+                    <select name="interest">
                         <option disabled selected value="">Select Option</option>
-                        <option value="option1">Swimming</option>
-                        <option value="option2">Reading</option>
-                        <option value="option3">Shopping</option>
-                        <option value="option4">Playing Games</option>
+                        <option value="swimming">Swimming</option>
+                        <option value="reading">Reading</option>
+                        <option value="shopping">Shopping</option>
+                        <option value="playing-games">Playing Games</option>
                     </select>
+                    <p id="interest-error" class="error-message"></p>
+
                     <button id="button" type="submit" class="button">SEND</button>
                 </form>
             </div>
@@ -65,5 +73,6 @@
     </div>
     
     <footer></footer>
+    <script src="JS/script.js"></script>
 </body>
 </html>
