@@ -77,7 +77,7 @@ main {
     background: lightgray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom: 20px;
-    
+    width: fit-content;   
 
 }
 
@@ -102,6 +102,14 @@ select {
     cursor: pointer;
 
 }
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0;
+
+}
+
 
 .button:hover {
     background: black;
@@ -157,3 +165,5 @@ span {
     color: gray;
 
 }
+
+    
